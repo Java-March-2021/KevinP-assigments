@@ -1,0 +1,25 @@
+public class BatTest
+{
+    public static void main (String[]args)
+    {
+        Bat bat = new Bat(300);
+
+        bat.attackTown();
+        bat.attackTown();
+        bat.attackTown();
+        bat.eatHumans();
+        bat.eatHumans();
+        bat.fly();
+        bat.fly();
+
+        if (bat.energyLevel<=0)
+        {
+            System.out.println("Bat is dead");
+        bat.displayEnergy();
+        }
+        else
+        {
+            bat.displayEnergy();
+        }
+    }
+}
