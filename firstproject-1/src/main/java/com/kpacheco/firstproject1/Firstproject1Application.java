@@ -13,9 +13,5 @@ public class Firstproject1Application {
 		SpringApplication.run(Firstproject1Application.class, args);
 	}
 	
-	@RequestMapping("/")
-	public String hello() {
-		return "Hello World!";
-	}
 
 }
